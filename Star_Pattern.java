@@ -13,7 +13,9 @@ public class Star_Pattern{
 
             for (int k = 1; k <= i; k++) {
 
+
                 System.out.print("* ");
+
             }
 
             System.out.println();
