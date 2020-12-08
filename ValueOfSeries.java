@@ -19,5 +19,4 @@ public class ValueOfSeries {
         System.out.println(sum);
     }
 
-
 }
