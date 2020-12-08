@@ -34,7 +34,9 @@ public class NestedForLoopPattern1 {
             System.out.println();
         }
 
+
         // Removal of Commented For Loop
+
 
     }
 
