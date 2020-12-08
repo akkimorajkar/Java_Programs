@@ -16,11 +16,12 @@ public class Conditional_Operator {
         String Sushil_marks = br.readLine();
         int SushilMarks = Integer.parseInt(Sushil_marks);
 
-        int Higest_Scorrer = (AkshayMarks>SushilMarks)? AkshayMarks : SushilMarks;
+        String Srishti_marks = br.readLine();
+        int SrishtiMarks = Integer.parseInt(Srishti_marks);
+
+        int Higest_Scorrer = (AkshayMarks > SushilMarks)? ((AkshayMarks > SrishtiMarks)? AkshayMarks: SrishtiMarks ):((SushilMarks >SrishtiMarks)? SushilMarks:SrishtiMarks);
 
         System.out.println("The Highest Score is "+ Higest_Scorrer);
-
-
 
     }
 }
