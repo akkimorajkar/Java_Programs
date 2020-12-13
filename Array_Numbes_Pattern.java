@@ -3,27 +3,18 @@ package com.company;
 public class Array_Numbes_Pattern {
     public static void main (String[] args){
 
-        int ar[] = new int[40];
+       for (int i = 0; i<=4; i++){
 
-        for (int i = 0; i<39; i++){
+           for (int j=0; j<=4; j++){
 
-            if (i<10){
+               System.out.print(i+""+j+ " ");
 
-                String str = "0"+i;
+           }
 
-                ar[i] = Integer.parseInt(str);
+           System.out.println();
 
-            }
-            else
 
-            ar[i] = i;
-
-        }
-
-        for (Integer i : ar){
-
-            System.out.println(i);
-        }
+       }
 
 
 
