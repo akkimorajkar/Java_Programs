@@ -32,7 +32,7 @@ public class String_And_Manupulation {
 
             System.out.println(str2);
 
-            //System.out.println("This is new Branch created Locally named as Brnach_Locally ");
+           // System.out.println("This is new Branch created Locally named as Brnach_Locally ");
 
         }
 
@@ -41,6 +41,23 @@ public class String_And_Manupulation {
         System.out.println(str3.trim()); // Trim Method for String
 
         System.out.println(str3.trim().replace(" ","_"));
+
+        String value_date = "29/01/1993";
+
+        System.out.println(value_date.replace("/",".")); //Replace Method for string
+
+        String account_name = "Akshay_Morajkar";
+
+        String Account_Name[] = account_name.split("_"); //Split Method for String
+
+        System.out.println("AccountName =" + Account_Name[0]);
+
+        System.out.println("LastName =" + Account_Name[1]);
+
+        String tranId = "your Transaction id is 987456";
+
+        System.out.println(tranId.substring(tranId.indexOf("is")+3, tranId.length())); //Substring Method to segregate a part of String
+
 
     }
 }
