@@ -26,7 +26,7 @@ public class String_And_Manupulation {
 
         String username = sc.nextLine();
 
-        String str2 = "Welcome"+ username;
+        String str2 = "Welcome "+ username;
 
         if(str2.indexOf(username)> 0){
 
@@ -38,7 +38,9 @@ public class String_And_Manupulation {
 
         String str3 = "   Hello World   ";
 
-        System.out.println(str3.trim());
+        System.out.println(str3.trim()); // Trim Method for String
+
+        System.out.println(str3.trim().replace(" ","_"));
 
     }
 }
